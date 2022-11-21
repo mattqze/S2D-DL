@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "S2D Downloader",
+    "version": "1.0",
+  
+    "description": "Downloader for Soap2Day",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.soap2day.to/*"],
+        "js": ["download.js"]
+      }
+    ]
+  
+  }
+  
